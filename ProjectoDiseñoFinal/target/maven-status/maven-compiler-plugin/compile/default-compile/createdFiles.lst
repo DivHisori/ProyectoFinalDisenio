@@ -1,11 +1,13 @@
 IGU\InterfazDiseñador$6.class
 IGU\FormularioVentas.class
 com\ProyectoDisenioFinal\ProyectoDisenioFinal\ProyectoDisenioFinalApplication.class
+Views\PanelCrearOperario.class
 IGU\InterfazAdministrador$3.class
 IGU\InterfazDiseñador$11.class
 IGU\InterfazDiseñador$9.class
 IGU\InterfazPrincipal.class
 IGU\InterfazAdministrador$2.class
+IGU\InterfazDiseñador$14.class
 IGU\InterfazDiseñador$4.class
 IGU\InterfazDiseñador$1.class
 IGU\FormularioAlmacen.class
@@ -23,6 +25,7 @@ IGU\InterfazLogin$1.class
 IGU\InterfazDiseñador$7.class
 IGU\FormularioMateriaPrima.class
 IGU\InterfazDiseñador$3.class
+Views\PanelIngresarMateriaPrima.class
 Logica\Operario.class
 Logica\FabricaTextilApp.class
 IGU\InterfazAdministrador$1.class
