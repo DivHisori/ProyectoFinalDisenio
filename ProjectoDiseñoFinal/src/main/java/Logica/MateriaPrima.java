@@ -19,4 +19,3 @@ public class MateriaPrima extends Producto {
         return precioUnitario;
     }
 }
-// proyecto final
