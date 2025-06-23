@@ -201,7 +201,7 @@ public class InterfazDiseñador extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable2);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 770, 160));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 330, 780, 160));
 
         jLabel5.setForeground(new java.awt.Color(0, 153, 255));
         jLabel5.setText("Material a utilizar:");
@@ -312,7 +312,7 @@ public class InterfazDiseñador extends javax.swing.JFrame {
         jLabel14.setText("Estilo:");
         jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 130, -1, 20));
 
-        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Elegir...", "Casual", "Formal", "Deportivo", " ", " " }));
+        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Elegir...", "Casual", "Formal", "Deportivo" }));
         jComboBox6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox6ActionPerformed(evt);
@@ -323,7 +323,7 @@ public class InterfazDiseñador extends javax.swing.JFrame {
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Elegir...", "Masculino", "Femenino" }));
         jPanel1.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 100, 150, -1));
 
-        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Elegir...", "metros", "cm", "unidades", " " }));
+        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Elegir...", "metros", "cm", "unidades" }));
         jPanel1.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 160, 60, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

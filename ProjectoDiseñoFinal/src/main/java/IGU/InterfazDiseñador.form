@@ -268,7 +268,7 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="20" y="330" width="770" height="160"/>
+              <AbsoluteConstraints x="10" y="330" width="780" height="160"/>
             </Constraint>
           </Constraints>
 
@@ -609,13 +609,11 @@
         <Component class="javax.swing.JComboBox" name="jComboBox6">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="6">
+              <StringArray count="4">
                 <StringItem index="0" value="Elegir..."/>
                 <StringItem index="1" value="Casual"/>
                 <StringItem index="2" value="Formal"/>
                 <StringItem index="3" value="Deportivo"/>
-                <StringItem index="4" value=" "/>
-                <StringItem index="5" value=" "/>
               </StringArray>
             </Property>
           </Properties>
@@ -653,12 +651,11 @@
         <Component class="javax.swing.JComboBox" name="jComboBox5">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="5">
+              <StringArray count="4">
                 <StringItem index="0" value="Elegir..."/>
                 <StringItem index="1" value="metros"/>
                 <StringItem index="2" value="cm"/>
                 <StringItem index="3" value="unidades"/>
-                <StringItem index="4" value=" "/>
               </StringArray>
             </Property>
           </Properties>
