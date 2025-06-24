@@ -10,7 +10,9 @@ IGU\InterfazPrincipal.class
 IGU\InterfazAdministrador$2.class
 IGU\InterfazDiseñador$14.class
 IGU\InterfazDiseñador$4.class
+Views\PanelProveedores$2.class
 IGU\InterfazDiseñador$1.class
+Views\PanelProveedores.class
 IGU\FormularioAlmacen.class
 IGU\InterfazAdministrador$4.class
 IGU\InterfazDiseñador$10.class
@@ -33,6 +35,7 @@ IGU\InterfazAdministrador$1.class
 IGU\InterfazDiseñador$8.class
 Logica\Producto.class
 IGU\FormularioVentas$1.class
+Views\PanelProveedores$1.class
 IGU\InterfazDiseñador.class
 IGU\InterfazDiseñador$13.class
 IGU\FormularioMateriaPrima$1.class

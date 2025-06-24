@@ -17,6 +17,7 @@ public class PanelIngresarMateriaPrima extends javax.swing.JFrame {
      */
     public PanelIngresarMateriaPrima() {
         initComponents();
+        setLocationRelativeTo(null); 
     }
 
     /**
@@ -108,7 +109,7 @@ public class PanelIngresarMateriaPrima extends javax.swing.JFrame {
         ));
         jScrollPane3.setViewportView(jTable3);
 
-        jPanel1.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 30, 290, 80));
+        jPanel1.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 30, 290, 160));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
