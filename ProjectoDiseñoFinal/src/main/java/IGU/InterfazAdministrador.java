@@ -1,12 +1,11 @@
 
 package IGU;
 
-import IGU.InterfazDiseñador;
 import com.formdev.flatlaf.FlatLightLaf;
 import javax.swing.UIManager;
 
 public class InterfazAdministrador extends javax.swing.JFrame {
-    private InterfazDiseñador intDis;
+    
     
     
     
@@ -15,7 +14,6 @@ public class InterfazAdministrador extends javax.swing.JFrame {
      */
     public InterfazAdministrador() {
         initComponents();
-        intDis.setVisible(false);
     }
 
     /**
@@ -167,7 +165,7 @@ public class InterfazAdministrador extends javax.swing.JFrame {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         
-        intDis = new InterfazDiseñador();
+
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -207,10 +205,4 @@ public class InterfazAdministrador extends javax.swing.JFrame {
     private javax.swing.JTextArea jTextArea1;
     // End of variables declaration//GEN-END:variables
 
-    /**
-     * @return the intDis
-     */
-    public InterfazDiseñador getIntDis() {
-        return intDis;
-    }
 }

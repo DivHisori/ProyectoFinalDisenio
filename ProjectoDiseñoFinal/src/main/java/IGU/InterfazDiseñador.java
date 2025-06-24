@@ -20,6 +20,8 @@ public class InterfazDiseñador extends javax.swing.JFrame {
      */
     public InterfazDiseñador() {
         initComponents();
+        FlatLightLaf.setup();
+        UIManager.put( "Button.arc", 0 );
     }
 
     /**
@@ -393,8 +395,7 @@ public class InterfazDiseñador extends javax.swing.JFrame {
 
  public static void main(String args[]) {
         /* Set the Nimbus look and feel */
-        FlatLightLaf.setup();
-        UIManager.put( "Button.arc", 0 );
+        
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
