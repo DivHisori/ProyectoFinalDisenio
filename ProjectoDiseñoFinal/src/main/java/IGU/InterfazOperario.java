@@ -8,7 +8,7 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 
-public class InterfazOperario extends Jframe{
+public class InterfazOperario extends JFrame{
 private JPanel panelFondo, panelFormulario;
     private JLabel lblTitulo, lblUsuario, lblContraseña, lblRol;
     private JTextField txtUsuario;
@@ -18,7 +18,7 @@ private JPanel panelFondo, panelFormulario;
     private JButton btnCrear, btnEditar, btnEliminar, btnSalir;
     private DefaultTableModel modelo;
 
-    public InterfazOperador() {
+    public void InterfazOperador() {
         setTitle("Creación de Operador");
         setSize(1000, 600); 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -158,7 +158,7 @@ private JPanel panelFondo, panelFormulario;
     }
 
     public static void main(String[] args) {
-        new InterfazOperador();
+        new InterfazOperario();
     }
 }
-}
+
