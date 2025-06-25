@@ -17,6 +17,7 @@ public class InterfazMaquinaria extends javax.swing.JFrame {
      */
     public InterfazMaquinaria() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**

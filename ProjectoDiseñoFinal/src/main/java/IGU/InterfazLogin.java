@@ -17,7 +17,8 @@ public class InterfazLogin extends javax.swing.JFrame {
  
     
     public InterfazLogin() {
-        initComponents(); 
+        initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**

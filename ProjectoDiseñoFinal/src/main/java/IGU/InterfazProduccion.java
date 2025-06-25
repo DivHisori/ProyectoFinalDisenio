@@ -80,21 +80,21 @@ public class InterfazProduccion extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable2);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, 640, 120));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, 780, 120));
 
         jLabel4.setForeground(new java.awt.Color(0, 153, 0));
         jLabel4.setText("Tabla de Diseños");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 350, -1, -1));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 350, -1, -1));
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Elegir..." }));
-        jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 120, 180, -1));
+        jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 120, 210, -1));
 
         jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Cantidad y costo de materia prima");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 100, -1, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 100, -1, -1));
 
         jButton2.setText("Guardar Lote");
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 110, 110, 30));
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 180, 110, 60));
 
         jTable3.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -131,7 +131,7 @@ public class InterfazProduccion extends javax.swing.JFrame {
                 {null, null, null}
             },
             new String [] {
-                "Materia Prima", "Cantidad", "Precio"
+                "Materia elaborada", "Cantidad", "Precio"
             }
         ) {
             Class[] types = new Class [] {
@@ -144,7 +144,7 @@ public class InterfazProduccion extends javax.swing.JFrame {
         });
         jScrollPane2.setViewportView(jTable1);
 
-        jPanel1.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 240, 300, 110));
+        jPanel1.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 120, 430, 200));
 
         jLabel7.setForeground(new java.awt.Color(51, 51, 51));
         jLabel7.setText("Seleccionar Diseños para este lote:");
@@ -156,7 +156,7 @@ public class InterfazProduccion extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, 180, -1));
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, 210, -1));
 
         jButton4.setText("Eliminar Diseño");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -168,16 +168,16 @@ public class InterfazProduccion extends javax.swing.JFrame {
         jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, 50, -1));
 
         jButton5.setText("Calcular");
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 150, 110, 30));
+        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 120, 110, 50));
 
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Total:");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 330, -1, -1));
-        jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 330, 120, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 320, -1, -1));
+        jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 320, 120, -1));
 
         jLabel9.setForeground(new java.awt.Color(0, 0, 0));
         jLabel9.setText("Diseños para nuevo lote");
-        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 230, -1, -1));
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 230, -1, -1));
 
         jPanel2.setBackground(new java.awt.Color(0, 51, 51));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());

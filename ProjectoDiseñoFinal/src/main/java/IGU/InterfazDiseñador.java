@@ -22,6 +22,7 @@ public class InterfazDiseñador extends javax.swing.JFrame {
         initComponents();
         FlatLightLaf.setup();
         UIManager.put( "Button.arc", 0 );
+        setLocationRelativeTo(null);
     }
 
     /**
