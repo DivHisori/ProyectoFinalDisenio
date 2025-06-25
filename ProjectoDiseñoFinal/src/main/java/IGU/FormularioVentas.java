@@ -30,9 +30,9 @@ public class FormularioVentas extends JFrame {
         JLabel lblTipo = new JLabel("Tipo de Prenda:");
         JLabel lblPrecio = new JLabel("Precio:");
 
-        lblFecha.setForeground(Color.WHITE);
-        lblTipo.setForeground(Color.WHITE);
-        lblPrecio.setForeground(Color.WHITE);
+        lblFecha.setForeground(Color.white);
+        lblTipo.setForeground(Color.white);
+        lblPrecio.setForeground(Color.white);
 
         lblFecha.setBounds(20, 20, 120, 25);
         lblTipo.setBounds(20, 70, 120, 25);

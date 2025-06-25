@@ -34,7 +34,7 @@ public class FormularioMateriaPrima extends JFrame {
         lblTitulo.setBounds(80, 10, 250, 25);
         panelFormulario.add(lblTitulo);
 
-        // Etiquetas y campos
+       
         JLabel lblFecha = new JLabel("Fecha de ingreso:");
         JLabel lblNombre = new JLabel("Nombre de la Materia Prima:");
         JLabel lblTipo = new JLabel("Tipo de material:");
