@@ -7,10 +7,6 @@ package IGU;
 import com.formdev.flatlaf.FlatLightLaf;
 import javax.swing.UIManager;
 
-/**
- *
- * @author PC
- */
 public class PanelProveedores extends javax.swing.JFrame {
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(PanelProveedores.class.getName());
