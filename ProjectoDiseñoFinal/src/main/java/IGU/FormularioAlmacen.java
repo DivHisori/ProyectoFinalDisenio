@@ -10,8 +10,7 @@ import java.awt.*;
 
 public class FormularioAlmacen extends JFrame {
    
-    private JTextField txtFechaIngreso, txtNombre, txtCategoria,
-                       txtCantidad, txtProveedor, txtPrecio;
+    private JTextField txtFechaIngreso, txtNombre, txtCategoria,txtCantidad, txtProveedor, txtPrecio;
 
    
     private JButton btnRegistrar, btnActualizar, btnEliminar, btnCerrar;

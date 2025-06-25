@@ -20,6 +20,8 @@ public class InterfazDiseñador extends javax.swing.JFrame {
      */
     public InterfazDiseñador() {
         initComponents();
+        FlatLightLaf.setup();
+        UIManager.put( "Button.arc", 0 );
     }
 
     /**
@@ -188,12 +190,19 @@ public class InterfazDiseñador extends javax.swing.JFrame {
                 {null, null, null, null, null, null, null}
             },
             new String [] {
-                "Id Diseño", "Tipo Prenda", "Genero", "Temporada", "Estilo", "Materiales", "PrecioxUnd"
+                "Id Diseño", "Tipo Prenda", "Genero", "Temporada", "Estilo", "Materiales", "CostoxUnd"
             }
         ) {
-            boolean[] canEdit = new boolean [] {
-                true, false, true, false, false, true, false
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Object.class, java.lang.Double.class
             };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
 
             public boolean isCellEditable(int rowIndex, int columnIndex) {
                 return canEdit [columnIndex];
@@ -386,8 +395,7 @@ public class InterfazDiseñador extends javax.swing.JFrame {
 
  public static void main(String args[]) {
         /* Set the Nimbus look and feel */
-        FlatLightLaf.setup();
-        UIManager.put( "Button.arc", 0 );
+        
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
