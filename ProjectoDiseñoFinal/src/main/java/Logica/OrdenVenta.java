@@ -1,7 +1,7 @@
 
 package Logica;
 
-
+//asd
 public class OrdenVenta {
     private int numeroOrden;
     private Trabajador trabajador;
