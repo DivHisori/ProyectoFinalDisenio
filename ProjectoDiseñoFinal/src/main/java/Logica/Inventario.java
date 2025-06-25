@@ -2,6 +2,8 @@
 
 package Logica;
 
+import java.time.LocalDateTime;
+
 
 public interface Inventario<T> {
     T getItem();  // El tipo del producto o materia
