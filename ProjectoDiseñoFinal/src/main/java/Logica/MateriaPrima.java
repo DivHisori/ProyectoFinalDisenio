@@ -2,20 +2,30 @@
 package Logica;
 
 
-public class MateriaPrima extends Producto {
-    private double precioUnitario;
+public class MateriaPrima implements Producto {
+    private int idMateria;
+    private String nombre;
+    private String descripcion;
 
-    public MateriaPrima(String tipo, int cantidad, double precioUnitario) {
-        super(tipo, cantidad);
-        this.precioUnitario = precioUnitario;
+    public MateriaPrima(int id, String nombre, String descripcion) {
+        this.idMateria = id;
+        this.nombre = nombre;
+        this.descripcion = descripcion;
     }
 
     @Override
-    public String describir() {
-        return "Materia prima: " + tipo + " - Cantidad: " + cantidad + " - Precio Unitario: $" + precioUnitario;
+    public int getId() {
+        return idMateria;
     }
 
-    public double getPrecioUnitario() {
-        return precioUnitario;
+    @Override
+    public String getNombre() {
+        return nombre;
+    }
+
+    @Override
+    public double getCosto() {
+        return 0; // No tiene costo directo, lo aporta proveedor
     }
 }
+

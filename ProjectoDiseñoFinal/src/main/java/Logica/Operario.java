@@ -1,13 +1,16 @@
 package Logica;
 
-public class Operario extends Trabajador {
+public class Operario extends Usuario {
+    private String nombre;
 
-    public Operario(int id, String nombre) {
-        super(id, nombre);
+    public Operario(int idUsuario, String nombreUsuario, String clave, String rol, String nombre) {
+        super(idUsuario, nombreUsuario, clave, rol);
+        this.nombre = nombre;
     }
 
     @Override
-    public void trabajar() {
-        System.out.println("El operario " + nombre + " está trabajando.");
+    public void mostrarRol() {
+        System.out.println("Soy Operario: " + nombre);
     }
 }
+
