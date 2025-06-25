@@ -110,7 +110,7 @@ public class PanelNuevoLote extends javax.swing.JFrame {
 
         jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Cantidad y costo de materia prima");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 90, -1, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 90, -1, -1));
 
         jButton2.setText("Guardar Lote");
         jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 10, 110, 30));
@@ -171,7 +171,7 @@ public class PanelNuevoLote extends javax.swing.JFrame {
         jLabel7.setForeground(new java.awt.Color(51, 51, 51));
         jLabel7.setText("Seleccionar Diseños para este lote:");
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, -1, -1));
-        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 50, 50, -1));
+        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 50, 60, -1));
 
         jButton3.setText("Agregar diseño");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -191,7 +191,7 @@ public class PanelNuevoLote extends javax.swing.JFrame {
 
         jLabel8.setForeground(new java.awt.Color(51, 51, 51));
         jLabel8.setText("Cantidad:");
-        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, -1, -1));
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 30, -1, -1));
         jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 120, -1));
 
         jButton5.setText("Calcular");
