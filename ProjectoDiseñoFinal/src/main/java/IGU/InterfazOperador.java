@@ -82,6 +82,7 @@ public class InterfazOperador extends JFrame{
         panelFormulario.add(lblRol);
 
         comboRol = new JComboBox<>(new String[]{"Elegir...", "rol1", "rol2", "rol3", "rol4"});
+        comboRol = new JComboBox<>(new String[]{"Elegir...", "Diseñador", "Proveedor", "Cliente", "Operario"});
         comboRol.setBounds(130, 110, 250, 25);
         panelFormulario.add(comboRol);
 
