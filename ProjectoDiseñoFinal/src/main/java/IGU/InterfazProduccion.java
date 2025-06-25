@@ -2,20 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package Views;
+package IGU;
 
 /**
  *
  * @author PC
  */
-public class PanelNuevoLote extends javax.swing.JFrame {
+public class InterfazProduccion extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(PanelNuevoLote.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(InterfazProduccion.class.getName());
 
     /**
      * Creates new form PanelIngresarMtariaPrima
      */
-    public PanelNuevoLote() {
+    public InterfazProduccion() {
         initComponents();
         setLocationRelativeTo(null); 
     }
@@ -87,14 +87,14 @@ public class PanelNuevoLote extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable2);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(4, 294, 610, 120));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, 780, 120));
 
         jLabel4.setForeground(new java.awt.Color(0, 153, 0));
         jLabel4.setText("Tabla de Diseños");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 270, -1, -1));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 350, -1, -1));
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Elegir..." }));
-        jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 180, -1));
+        jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 120, 180, -1));
 
         jLabel3.setForeground(new java.awt.Color(51, 51, 51));
         jLabel3.setText("Seleccionar el proveedor:");
@@ -106,7 +106,7 @@ public class PanelNuevoLote extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 80, 120, -1));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 150, 120, -1));
 
         jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Cantidad y costo de materia prima");
@@ -136,11 +136,11 @@ public class PanelNuevoLote extends javax.swing.JFrame {
         });
         jScrollPane3.setViewportView(jTable3);
 
-        jPanel1.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 250, 110));
+        jPanel1.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 250, 110));
 
         jLabel6.setForeground(new java.awt.Color(51, 51, 51));
         jLabel6.setText("Indice editar o eliminar:");
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, -1, -1));
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, -1, -1));
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Elegir..." }));
         jPanel1.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 50, 130, -1));
@@ -170,8 +170,8 @@ public class PanelNuevoLote extends javax.swing.JFrame {
 
         jLabel7.setForeground(new java.awt.Color(51, 51, 51));
         jLabel7.setText("Seleccionar Diseños para este lote:");
-        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, -1, -1));
-        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 50, 60, -1));
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, -1, -1));
+        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 120, 60, -1));
 
         jButton3.setText("Agregar diseño");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -179,7 +179,7 @@ public class PanelNuevoLote extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 120, -1));
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, 120, -1));
 
         jButton4.setText("Eliminar Diseño");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -187,12 +187,12 @@ public class PanelNuevoLote extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 110, 120, -1));
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 200, 120, -1));
 
         jLabel8.setForeground(new java.awt.Color(51, 51, 51));
         jLabel8.setText("Cantidad:");
-        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 30, -1, -1));
-        jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 120, -1));
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 100, -1, -1));
+        jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, 120, -1));
 
         jButton5.setText("Calcular");
         jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 50, 110, 30));
@@ -204,7 +204,7 @@ public class PanelNuevoLote extends javax.swing.JFrame {
 
         jLabel9.setForeground(new java.awt.Color(0, 0, 0));
         jLabel9.setText("Diseños para nuevo lote");
-        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 230, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -214,7 +214,7 @@ public class PanelNuevoLote extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 420, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 500, Short.MAX_VALUE)
         );
 
         pack();
@@ -254,7 +254,7 @@ public class PanelNuevoLote extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new PanelNuevoLote().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new InterfazProduccion().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
