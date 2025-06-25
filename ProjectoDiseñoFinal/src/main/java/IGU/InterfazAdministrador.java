@@ -72,7 +72,7 @@ public class InterfazAdministrador extends javax.swing.JFrame {
         jButton4.setBackground(new java.awt.Color(0, 51, 51));
         jButton4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setText("Registrar trabajador");
+        jButton4.setText("Configurar proveedores");
         jButton4.setBorder(null);
         jPanel2.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 310, 180, 70));
 
@@ -94,7 +94,7 @@ public class InterfazAdministrador extends javax.swing.JFrame {
         jButton3.setBackground(new java.awt.Color(0, 51, 51));
         jButton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setText("Registrar materia prima");
+        jButton3.setText("Crear nuevo lote");
         jButton3.setBorder(null);
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
