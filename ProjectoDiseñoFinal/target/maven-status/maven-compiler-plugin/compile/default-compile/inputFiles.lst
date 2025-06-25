@@ -1,15 +1,19 @@
-C:\Users\PC\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\com\ProyectoDisenioFinal\ProyectoDisenioFinal\ProyectoDisenioFinalApplication.java
-C:\Users\PC\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\FormularioAlmacen.java
-C:\Users\PC\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\FormularioMateriaPrima.java
-C:\Users\PC\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\FormularioVentas.java
-C:\Users\PC\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazAdministrador.java
-C:\Users\PC\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazDiseñador.java
-C:\Users\PC\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazLogin.java
-C:\Users\PC\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazPrincipal.java
-C:\Users\PC\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\FabricaTextilApp.java
-C:\Users\PC\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\Lote.java
-C:\Users\PC\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\MateriaPrima.java
-C:\Users\PC\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\Operario.java
-C:\Users\PC\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\OrdenVenta.java
-C:\Users\PC\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\Producto.java
-C:\Users\PC\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\Trabajador.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\com\ProyectoDisenioFinal\ProyectoDisenioFinal\ProyectoDisenioFinalApplication.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\FormularioAlmacen.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\FormularioMateriaPrima.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\FormularioVentas.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazAdministrador.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazDiseñador.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazLogin.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazOperador.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazOperario.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazOperarioo.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazPrincipal.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\FabricaTextilApp.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\Lote.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\MateriaPrima.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\Operario.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\OrdenVenta.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\Producto.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\Trabajador.java
+C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Views\PanelEditarDiseñador.java

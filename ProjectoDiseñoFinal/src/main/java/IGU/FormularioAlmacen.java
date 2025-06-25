@@ -37,7 +37,7 @@ public class FormularioAlmacen extends JFrame {
         
         String[] etiquetas = {
             "Fecha de ingreso:",  "Nombre producto:",
-             "Cantidad almacenada:", 
+             "Categoria" ,"Cantidad almacenada:", 
             "Proveedor:", "Precio unitario:"
         };
         JTextField[] campos = new JTextField[etiquetas.length];
@@ -45,7 +45,7 @@ public class FormularioAlmacen extends JFrame {
         int y = 20;
         for (int i = 0; i < etiquetas.length; i++) {
             JLabel lbl = new JLabel(etiquetas[i]);
-            lbl.setForeground(Color.WHITE);
+            lbl.setForeground(Color.white);
             lbl.setBounds(20, y, 150, 25);
             panelDatos.add(lbl);
 
@@ -75,7 +75,7 @@ public class FormularioAlmacen extends JFrame {
         for (JButton btn : botones) {
             btn.setBounds(xBtn, 340, 120, 30);
             btn.setBackground(new Color(0, 128, 128)); 
-            btn.setForeground(Color.WHITE);
+            btn.setForeground(Color.white);
             add(btn);
             xBtn += 130;
         }
