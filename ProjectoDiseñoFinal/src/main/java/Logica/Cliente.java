@@ -12,6 +12,6 @@ public class Cliente {
         this.nombre = nombre;
     }
 
-    // Getters y toString
+    
 }
 
