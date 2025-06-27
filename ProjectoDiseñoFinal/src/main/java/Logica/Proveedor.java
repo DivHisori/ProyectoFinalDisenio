@@ -1,14 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 
 package Logica;
 
-/**
- *
- * @author Michel
- */
-public class Proveedor {
 
+public class Proveedor {
+    private int idProveedor;
+    private String nombre;
+    private String contacto;
+
+    public Proveedor(int idProveedor, String nombre, String contacto) {
+        this.idProveedor = idProveedor;
+        this.nombre = nombre;
+        this.contacto = contacto;
+    }
 }
