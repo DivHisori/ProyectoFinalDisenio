@@ -1,1 +1,25 @@
-/ProjectoDiseñoFinal/target/
+/ProjectoDiseñoFinal/target/# Archivos compilados de Java
+*.class
+
+# Directorios de build
+target/
+bin/
+build/
+
+# Archivos de Maven
+pom.xml.*
+release.properties
+
+# Archivos de IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Archivos del sistema
+Thumbs.db
+Desktop.ini
