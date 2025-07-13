@@ -30,8 +30,7 @@ public class ModificarMateriaPrima extends javax.swing.JFrame {
     public ModificarMateriaPrima() {
         initComponents();
         setLocationRelativeTo(null); 
-        
-        
+        setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
     }
 
     /**
@@ -55,7 +54,6 @@ public class ModificarMateriaPrima extends javax.swing.JFrame {
         jTextField3 = new javax.swing.JTextField();
         jTextField4 = new javax.swing.JTextField();
         jTextField5 = new javax.swing.JTextField();
-        jButton8 = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
         TablaMateriaPrima = new javax.swing.JTable();
         jPanel2 = new javax.swing.JPanel();
@@ -115,14 +113,6 @@ public class ModificarMateriaPrima extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 220, 180, -1));
-
-        jButton8.setText("Atras");
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 340, 70, -1));
 
         TablaMateriaPrima.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -206,7 +196,7 @@ public class ModificarMateriaPrima extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 800, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 786, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -215,12 +205,6 @@ public class ModificarMateriaPrima extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        PaPr.setVisible(true);
-        this.setVisible(false);
-        
-    }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
@@ -267,7 +251,6 @@ public class ModificarMateriaPrima extends javax.swing.JFrame {
     private javax.swing.JTable TablaMateriaPrima;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;

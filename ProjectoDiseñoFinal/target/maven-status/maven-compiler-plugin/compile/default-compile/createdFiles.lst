@@ -6,9 +6,7 @@ IGU\InterfazDiseñador$11.class
 IGU\InterfazDiseñador$9.class
 Views\BuscarDiseños$2.class
 IGU\InterfazDiseñador$14.class
-IGU\InterfazProduccion$3.class
 IGU\PanelProveedores.class
-Views\ModificarMateriaPrima$6.class
 IGU\InterfazConfeccion.class
 IGU\InterfazAdministrador$4.class
 Logica\Trabajador.class
@@ -22,7 +20,6 @@ Logica\FabricaTextilApp.class
 IGU\InterfazAdministrador$1.class
 Views\BuscarDiseños.class
 IGU\InterfazDiseñador.class
-Views\BuscarDiseños$3.class
 Views\ModificarMateriaPrima$4.class
 IGU\InterfazProduccion$1.class
 com\ProyectoDisenioFinal\ProyectoDisenioFinal\ProyectoDisenioFinalApplication.class
