@@ -2,7 +2,7 @@ package Logica;
 
 public abstract class Trabajador {
 
-    int id;
+    public int id;
     String nombre;
 
     public Trabajador(int id, String nombre) {

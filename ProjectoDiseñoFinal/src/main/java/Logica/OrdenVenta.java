@@ -34,4 +34,24 @@ public class OrdenVenta {
     public double getPrecioFinal() {
         return precioFinal;
     }
+
+    public int getNumeroOrden() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getNumeroOrden'");
+    }
+
+    public Object getOperarioVentas() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getOperarioVentas'");
+    }
+
+    public Object getPrendaVendida() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getPrendaVendida'");
+    }
+
+    public int getCantidadVendida() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getCantidadVendida'");
+    }
 }

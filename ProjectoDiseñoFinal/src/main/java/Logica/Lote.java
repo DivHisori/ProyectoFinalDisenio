@@ -18,4 +18,26 @@ public class Lote {
         System.out.println("Procesando lote #" + numeroLote);
         System.out.println(producto.describir());
     }
+
+    public void setNumeroLote(int int1) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setNumeroLote'");
+    }
+
+    public String getNumeroLote() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getNumeroLote'");
+    }
+
+    public int getCantidadAProducir() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getCantidadAProducir'");
+    }
+
+    public Object getPrenda() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getPrenda'");
+    }
+
+
 }
