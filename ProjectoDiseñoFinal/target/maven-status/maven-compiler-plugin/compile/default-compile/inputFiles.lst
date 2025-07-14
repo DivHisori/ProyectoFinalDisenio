@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\com\ProyectoDisenioFinal\ProyectoDisenioFinal\ProyectoDisenioFinalApplication.java
 C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\FormularioAlmacen.java
 C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\FormularioMateriaPrima.java
@@ -17,3 +18,23 @@ C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\
 C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\Producto.java
 C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\Trabajador.java
 C:\Users\MARIA SOFIA\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Views\PanelEditarDiseñador.java
+=======
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\com\ProyectoDisenioFinal\ProyectoDisenioFinal\ProyectoDisenioFinalApplication.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\FormularioAlmacen.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazAdministrador.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazConfeccion.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazDiseñador.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazLogin.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazMaquinaria.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazOperario.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\InterfazProduccion.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\IGU\PanelProveedores.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\FabricaTextilApp.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\Lote.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\MateriaPrima.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\Operario.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\OrdenVenta.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\Producto.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Logica\Trabajador.java
+C:\Users\Jose\Documents\GitHub\ProyectoFinalDisenio\ProjectoDiseñoFinal\src\main\java\Views\PanelCrearOperario.java
+>>>>>>> main

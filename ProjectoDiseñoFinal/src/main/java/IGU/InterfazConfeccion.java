@@ -2,20 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package Views;
+package IGU;
 
 /**
  *
  * @author PC
  */
-public class PanelEditarDiseñador extends javax.swing.JFrame {
+public class InterfazConfeccion extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(PanelEditarDiseñador.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(InterfazConfeccion.class.getName());
 
     /**
-     * Creates new form PanelEditarDiseñador
+     * Creates new form InterfazConfeccion
      */
-    public PanelEditarDiseñador() {
+    public InterfazConfeccion() {
         initComponents();
     }
 
@@ -32,17 +32,15 @@ public class PanelEditarDiseñador extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 600, Short.MAX_VALUE)
+            .addGap(0, 800, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 420, Short.MAX_VALUE)
+            .addGap(0, 500, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -81,7 +79,7 @@ public class PanelEditarDiseñador extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new PanelEditarDiseñador().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new InterfazConfeccion().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
